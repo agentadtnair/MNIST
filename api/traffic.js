@@ -16,10 +16,10 @@ export default async function handler(req, res) {
 
   console.log(data);
 
-  await fetch("https://shuffler.io/api/v1/hooks/webhook", {
+  await fetch("https://shuffler.io/api/v1/hooks/webhook_a8318874-30e5-4b34-8bb0-07eaf3918d30", {
     method: "POST",
     headers: {
-        "Content-Type": "application/json"
+      "Content-Type": "application/json"
     },
     body: JSON.stringify(data)
   });
